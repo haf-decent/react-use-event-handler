@@ -1,0 +1,34 @@
+{
+  "name": "react-use-event-handler",
+  "version": "1.0.0",
+  "description": "React hook for streamlining management of event listeners",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run build-cjs && npm run build-esm",
+    "build-cjs": "tsc --module commonjs --outDir lib/cjs",
+    "build-esm": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haf-decent/react-use-event-handler"
+  },
+  "author": "haf-decent",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "typescript": "^4.7.3"
+  },
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/haf-decent/react-use-event-handler/issues"
+  },
+  "homepage": "https://github.com/haf-decent/react-use-event-handler#readme"
+}
