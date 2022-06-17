@@ -30,5 +30,12 @@
   "bugs": {
     "url": "https://github.com/haf-decent/react-use-event-handler/issues"
   },
-  "homepage": "https://github.com/haf-decent/react-use-event-handler#readme"
+  "homepage": "https://github.com/haf-decent/react-use-event-handler#readme",
+  "keywords": [
+    "react",
+    "event",
+    "listener",
+    "handler",
+    "hook"
+  ]
 }
